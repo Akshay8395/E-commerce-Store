@@ -1,0 +1,19 @@
+[
+    {"ID":1,"Name" : "Apple","Image":"Images/Apple.png ","Price":1.00},
+    {"ID":2,"Name" : "Avocado","Image":"Images/Avocado.png ","Price":2.00},
+    {"ID":3,"Name" : "Banana","Image":"Images/Banana.png ","Price":3.00},
+    {"ID":4,"Name" : "Blueberry","Image":"Images/Blueberry.png","Price":4.00},
+    {"ID":5,"Name" : "Blackberry","Image":"Images/Blackberry.png ","Price":3.00},
+    {"ID":6,"Name" : "Cherry","Image":"Images/Cherry.png ","Price":4.00},
+    {"ID":7,"Name" : "Grapes","Image":"Images/Grapes.png ","Price":6.00},
+    {"ID":8,"Name" : "Guava","Image":"Images/Guava.png ","Price":2.00},
+    {"ID":9,"Name" : "Mango","Image":"Images/Mango.png ","Price":5.00},
+    {"ID":10,"Name" : "Orange","Image":"Images/Orange.png ","Price":1.00},
+    {"ID":11,"Name" : "Papaya","Image":"Images/Papaya.png ","Price":3.00},
+    {"ID":12,"Name" : "Pear","Image":"Images/Pear.png ","Price":1.00},
+    {"ID":13,"Name" : "Promegranate","Image":"Images/Promegranate.png ","Price":2.00},
+    {"ID":14,"Name" : "Strawberries","Image":"Images/Strawberries.png ","Price":7.00},
+    {"ID":15,"Name" : "Watermelon","Image":"Images/Watermelon.png","Price":5.00}
+    
+]
+

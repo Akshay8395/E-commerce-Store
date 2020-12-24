@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        html, body {
+   height:100%;
+   padding:0;
+   margin:0;
+   background-image: url();
+   background: url(Images/fruit_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.navbar{
+    height:6.5%;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown_right{
+  float:right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.top {
+   height:20%;
+   text-align: center;
+}
+
+.bottom {
+   height:73%;
+   
+   
+}
+.bottom_bar{
+   height:2%;
+   margin: auto;
+}
+.button_product_list {
+  background-color: transparent;
+  color: black;
+  border: black;
+  border-style: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center{
+    text-align: center;
+}
+
+
+    </style>
+<script>
+  function logOut() {
+    location.replace("Logout.html")
+  }
+
+  function product() {
+      location.replace("Product.html")
+    }
+  function home() {
+      location.replace("HomePage.html")
+    }
+  function about_us() {
+      location.replace("About_Us.html")
+    }
+
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Menu 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a onclick="home()">Home</a>
+              <a onclick="product()">Product</a>
+              <a onclick="about_us()">About Us</a>
+              <a onclick="logOut()">Log out</a>
+            </div>
+          </div> 
+          <div class = "dropdown_right">
+            <a onclick="about_us()">About Us</a>
+            <a onclick="logOut()">Log Out</a>
+            </div>  
+    </div>
+    <div class="top">
+       <h1>FreshFruit.com</h1>
+     </div>
+     <div class="bottom" >
+      <div><h2 class="center" ><b>OUR STORY</b></h2></div>
+      <p class="center"> 
+        <b>FreshFruit.com</b> started in Spring of 2020. To Spread <b>Happiness</b> by turning an everyday essemtail into a colorful design
+          pices with a ridig standar of ultimate quality.
+      </p>
+      <p class="center"> 
+        Today <b>FreshFruit</b> are sold all over the <b>US</b> 
+      </p>
+      <div><h2 class="center" ><b>OUR QUALITY</b></h2></div>
+      <p class="center"> 
+        "OUR GOAL IS TO PROVIDE YOU WITH THE BEST AND HAPPIEST PRODUCTS AROUND. "
+      </p>
+      <p class="center"> 
+        <b>FreshFruit.com</b> pays clsoe attension to the productuion of its collection and only uses the best materials. 
+      </p>
+      <p class="center"> 
+        <b>FreshFruit.com</b> ensures that its suppliers have high standards by keeping cose contact with all of then through regular visists and the controls at all their stroe house. 
+      </p>
+
+      </div>
+        
+     </div>
+     <div class="bottom_bar">
+        &copy; Akshay Kapare
+     </div>
+
+  
+</body>
+</html>
